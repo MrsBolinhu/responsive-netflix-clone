@@ -1,0 +1,113 @@
+@media screen and (max-width: 700px){
+    .container{
+        padding: 9%;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .logo{
+        padding-right: 0;
+    }
+
+    header nav{
+        padding-left: 0;
+        
+    }
+    
+    header nav a{
+        text-decoration: none;
+        color: #AAA;
+        margin-right: 15px;
+        font-weight: 60%;
+        white-space: nowrap;
+        
+    }
+
+    header .container .genres img{
+        padding-bottom: 15px;
+    }
+
+    header .container .genres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+        
+    }
+
+    header .container .acc{
+        display: none;
+    }
+
+    .filme-principal{
+        padding-top: 100px;
+    }
+
+    .filme-principal .container{
+        width: 90%;
+        font-size: 120%;
+    }
+
+    .filme-principal .container h2{
+        font-size: 30px;
+    }
+
+    .filme-principal p{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+
+    .filme-principal .container .botoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .btn{
+        font-size: 1rem;
+        padding: 5% 5%;
+        margin-right: 0;
+        margin-top: 3%;
+    }
+
+    .secoes{
+        margin-top: -120px;
+    }
+
+    .secoes .container{
+        padding-bottom: 2%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ftr .container #icons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ftr .container #icons i{
+        padding-right: 20px;
+    }
+
+    .ftr .container .row ul{
+        padding-top: 30px;
+        font-size: 15px;
+        list-style-type: none;
+        color: #AAA;
+        width: 100%;
+        justify-content: space-around;   
+    }
+    
+}
